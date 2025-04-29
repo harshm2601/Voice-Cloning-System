@@ -1,0 +1,71 @@
+# Virtual Environment
+venv/
+env/
+ENV/
+
+# Python cache files
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# Distribution / packaging
+dist/
+build/
+*.egg-info/
+
+# PyInstaller
+*.manifest
+*.spec
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# IDE specific files
+.idea/
+.vscode/
+*.swp
+*.swo
+.project
+.pydevproject
+.settings/
+
+# OS specific files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Large media files that might be generated
+*.mp3
+*.wav
+!samples/*.mp3
+!WavFiles/*.wav
+
+# Dataset directories that might be large
+dataset/
+preprocessed_data/
+
+# Logs and temporary files
+logs/
+*.log
+temp/
+tmp/
+
+# Model checkpoints (keep only final models)
+checkpoints/
+# Exclude large model files
+*.pt
+!encoder/model.py
+!synthesizer/models/tacotron.py
+!vocoder/models/*.py
+
+# Keep documentation for samples and models but exclude the large files
+saved_models/
+!saved_models/
+!saved_models/default/
+saved_models/default/*.pt

@@ -51,7 +51,7 @@ The project is based on the SV2TTS (Speaker Voice to Text-to-Speech) architectur
    
    The pretrained models are too large for GitHub and must be downloaded separately. Please download them from the Google Drive link below:
    
-   [Download Pretrained Models](https://drive.google.com/drive/folders/your_folder_id_here)
+   [Download Pretrained Models](https://drive.google.com/drive/folders/1g5NU_2n-EV_IUPpbeWnKc7WxxAk3g1Dn?usp=sharing)
    
    After downloading, create a directory structure as follows:
    ```
